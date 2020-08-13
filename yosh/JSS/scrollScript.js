@@ -1,5 +1,13 @@
 /* WRITER Philip Næsgaard */
 
+
+/* -------------------------------------------------------------- open page script start -------------------------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------- open page script end -------------------------------------------------------------- */
+
 /* -------------------------------------------------------------- Scroll script start -------------------------------------------------------------- */
 
 
@@ -22,13 +30,13 @@ $(window).scroll(function(){
     if($(document).scrollTop() < 1 || $(document).scrollTop() == $(document).height() - $(window).height())
     {	
 	$('#nav-OpenClose div').data('height','big');
-        $('#nav-OpenClose div').stop().animate({'height':'14%'}						,000);
+    $('#nav-OpenClose div').stop().animate({'height':'14%'}							,000);
 		
 	$('#navNest h6').data('margin','big');
 	$('#navNest h6').stop().animate({'margin-top':'3%','margin-bottom':'3%'}		,600);
 		
 	$('.header').data('height','big');
-        $('.header').stop().animate({'height':'20%'}								,600);
+    $('.header').stop().animate({'height':'20%'}									,600);
 		
 	$('#nav').data('margin','big');
         $('#nav').stop().animate({'margin-top':'10.1%'}								,630);
