@@ -1,0 +1,17 @@
+﻿/* WRITER Philip Næsgaard */
+
+
+body {
+}
+
+.header {
+	background-color:rgb(70,70,70);
+}
+
+#logo {
+	background-image: url("../PIC/LogoBig.png");
+}
+
+.footer {
+	background-color:rgb(70,70,70);
+}

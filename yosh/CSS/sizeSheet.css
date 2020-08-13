@@ -1,0 +1,22 @@
+﻿/* WRITER Philip Næsgaard */
+
+
+body {
+
+}
+
+.header {
+	height: 50vh;
+	width: 100vw;
+}
+
+#logo {
+	height:977px;
+	width:977px;
+	background-repeat: no-repeat;
+}
+
+.footer {
+	height: 50vh;
+	width: 100vw;
+}

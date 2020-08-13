@@ -1,0 +1,31 @@
+﻿/* WRITER Philip Næsgaard */
+
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    align-content: center;
+}
+
+#logo {
+
+    position: absolute;
+
+}
+
+.footer {
+    display: flex;
+	align-items: center;
+    align-content: center;
+    
+}

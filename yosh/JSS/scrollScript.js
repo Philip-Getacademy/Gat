@@ -28,7 +28,7 @@ $(window).scroll(function(){
 	$('#navNest h6').stop().animate({'margin-top':'3%','margin-bottom':'3%'}		,600);
 		
 	$('.header').data('height','big');
-        $('.header').stop().animate({'height':'19.76267%'}							,600);
+        $('.header').stop().animate({'height':'20%'}								,600);
 		
 	$('#nav').data('margin','big');
         $('#nav').stop().animate({'margin-top':'10.1%'}								,630);

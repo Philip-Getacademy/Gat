@@ -1,1 +1,7 @@
 ﻿/* WRITER Philip Næsgaard */
+
+
+html, body {
+	margin:0;
+	padding:0;
+}
