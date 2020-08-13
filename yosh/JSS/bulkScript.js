@@ -1,3 +1,0 @@
-/* WRITER Philip Næsgaard */
-
-
