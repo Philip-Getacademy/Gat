@@ -1,0 +1,53 @@
+/* WRITER 161935 */
+
+/*	-------------------------------------------------------------- SCRIPT 'execute' start --------------------------------------------------------------	*/
+/* Limiting area */
+#nav-OpenClose {
+  width: 3%;
+  height: 25%;
+  cursor: pointer;
+}
+
+/* Declare CSS for OpenClose objects */
+#nav-OpenClose div {
+  display: block;
+  position: absolute;
+  height: 14%;
+  width: 100%;
+  background: url("../Bilder/nav-OpenClose.png");
+  background-repeat: no-repeat;
+  left: 0;
+  background-size: 100%;
+}
+
+/* Declare unique child height, parameter for hidden child BEFORE execute	*/
+	#nav-OpenClose div:nth-child(1)			{ 	top: 0px;										}
+	#nav-OpenClose div:nth-child(2)			{	top: 33.33%;									}
+	#nav-OpenClose div:nth-child(3)			{	top: 66.66%;									}
+	#nav-OpenClose div:nth-child(4)			{	top: 33.33%; 	width: 0%;		left:50%;		}
+
+/* Declare unique child height, parameter for hidden child AFTER execute	*/
+	#nav-OpenClose.execute div:nth-child(1) 	{	top: 18px;		width: 0%;		left: 50%;		}
+	#nav-OpenClose.execute div:nth-child(3) 	{	top: 18px;		width: 0%;	 	left: 50%;		}
+	#nav-OpenClose.execute div:nth-child(4) 	{	top: 33.33%;	width: 100%;	left: 0%;		}
+
+
+/* Spear angle - Starts		*/
+/* Before animation			*/	#nav-OpenClose, #nav-OpenClose div 		{ 	transform: rotate(0deg);		-webkit-transform: rotate(0deg);		-moz-transform: rotate(0deg);		-o-transform: rotate(0deg);			}
+/* During animation			*/	#nav-OpenClose.execute div:nth-child(2)	{	transform: rotate(45deg);		-webkit-transform: rotate(45deg);		-moz-transform: rotate(45deg);		-o-transform: rotate(45deg);		}
+/* During animation    		*/	#nav-OpenClose.execute div:nth-child(4) {	transform: rotate(-405deg);		-webkit-transform: rotate(-405deg);		-moz-transform: rotate(-405deg);	-o-transform: rotate(-405deg);		}
+/* Spear angle - Stops 		*/
+
+/* Rotation speed - Starts  */
+/* During animation	    	*/	#nav-OpenClose, #nav-OpenClose div 		{	transition: .50s ease-in-out;	-webkit-transition: .50s ease-in-out;	-moz-transition: .50s ease-in-out;	-o-transition: .50s ease-in-out;	}
+/* Roataion speed - Stops   */
+
+/* div CSS + position + angle ENDS */
+
+/*	-------------------------------------------------------------- SCRIPT 'execute' ends --------------------------------------------------------------		*/
+
+
+
+
+
+
