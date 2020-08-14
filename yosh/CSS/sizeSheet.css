@@ -10,14 +10,11 @@ body {
 	width: 100vw;
 }
 
-.header_footer {
-	height: 10vh;
-}
 
 #logo {
-	height:977px;
-	width:977px;
-	background-repeat: no-repeat;
+	height:200px;
+	width:200px;
+	background-size: cover;
 }
 
 .footer {

@@ -4,12 +4,16 @@
 /* -------------------------------------------------------------- open page script start -------------------------------------------------------------- */
 /* --------------------------------------------------- onclick script transformation parameters ------------------------------------------------------- */
 
-function header_footer() {
 
-let clickCheck = document.getElementByClassName('header').style.height;
 
-	if (clickCheck = '50vh') {
 
+
+function header_footer() {	
+	
+
+	if (document.getElementsByClassName('header').height == '50vh') {
+		
+		console.log('Hei');
 		$('.header').data('height', 'small');
 		$('.header').stop().animate({'height':'10vh'},300);
 

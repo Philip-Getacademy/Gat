@@ -57,12 +57,12 @@ $(window).scroll(function(){
         $('.footer').stop().animate({'margin-top':'10.1%'}							,600);
 		
 	$('#HeightHax').data('height','big');
-        $('#HeightHax').stop().animate({'padding-bottom':'39.5%'}					,600);
+    $('#HeightHax').stop().animate({'padding-bottom':'39.5%'}					,600);
     }
 	else
     {
 	$('#nav-OpenClose div').data('height','small');
-        $('#nav-OpenClose div').stop().animate({'height':'18%'}						,000);
+    $('#nav-OpenClose div').stop().animate({'height':'18%'}						,000);
 
 	$('#navNest h6').data('margin','big');
 	$('#navNest h6').stop().animate({'margin-top':'0.5%','margin-bottom':'0.5%'}	,300);		
@@ -71,28 +71,27 @@ $(window).scroll(function(){
 	$('.header').stop().animate({'height':'10%'}									,300);
 		
 	$('#nav').data('margin','small');
-        $('#nav').stop().animate({'margin-top':'5.1%'}								,270);
+    $('#nav').stop().animate({'margin-top':'5.1%'}								,270);
 		
 	$('#Logo img').data('size','small');
-        $('#Logo img').stop().animate({'height':'7%'}								,300);
+    $('#Logo img').stop().animate({'height':'7%'}								,300);
 		
 	$('#Logo').data('margin','small');
-        $('#Logo').stop().animate({'margin-left':'15.25%','width':'3.6%'}			,300);
+    $('#Logo').stop().animate({'margin-left':'15.25%','width':'3.6%'}			,300);
 		
 	$('#nav-OpenClose').data('margin','small');
-        $('#nav-OpenClose').stop().animate({'height':'40%'}							,000);
+    $('#nav-OpenClose').stop().animate({'height':'40%'}							,000);
 		
 	$('#Heading').data('margin','big');
-        $('#Heading').stop().animate({'width':'60%'}								,300);
+    $('#Heading').stop().animate({'width':'60%'}								,300);
 
 	$('.footer').data('margin','small');
-        $('.footer').stop().animate({'margin-top':'177%'}							,300);
+    $('.footer').stop().animate({'margin-top':'177%'}							,300);
 		
 	$('#HeightHax').data('height','small');
-        $('#HeightHax').stop().animate({'padding-bottom':'0%'}						,300);
+    $('#HeightHax').stop().animate({'padding-bottom':'0%'}						,300);
 		
-		
-
+	
     }	
 });
 
