@@ -9,16 +9,19 @@
 
 
 function header_footer() {	
-	
 
-	if (document.getElementsByClassName('header').height == '50vh') {
+	var height = document.getElementsByClassName('header').height;
+
+
+
+	if (height == '50vh') {
 		
-		console.log('Hei');
+		
 		$('.header').data('height', 'small');
-		$('.header').stop().animate({'height':'10vh'},300);
+		$('.header').stop().animate({'height':'50vh'},300);
 
 		$('.footer').data('height', 'small');
-		$('.footer').stop().animate({'height':'10vh'},300);
+		$('.footer').stop().animate({'height':'50vh'},300);
 
 	} else {
 		
