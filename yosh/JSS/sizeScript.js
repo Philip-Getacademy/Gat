@@ -1,35 +1,29 @@
-/* WRITER Philip Næsgaard */
+/* WRITER Philip Nï¿½sgaard */
 
 
 /* -------------------------------------------------------------- open page script start -------------------------------------------------------------- */
 /* --------------------------------------------------- onclick script transformation parameters ------------------------------------------------------- */
 
 
+var header_footer_true_gate = false;
 
 
 
-function header_footer() {	
-
-	var height = document.getElementsByClassName('header').height;
+function header_footer(header_height) {	
 
 
-
-	if (height == '50vh') {
+	if ( header_footer_true_gate == false) {
 		
 		
-		$('.header').data('height', 'small');
-		$('.header').stop().animate({'height':'50vh'},300);
-
-		$('.footer').data('height', 'small');
-		$('.footer').stop().animate({'height':'50vh'},300);
+		$('.header').stop().animate({'height':"50vh"},300);
+		$('.footer').stop().animate({'height':"50vh"},300);
+		header_footer_true_gate = true;
 
 	} else {
 		
-		$('.header').data('height', 'big');
-		$('.header').stop().animate({'height':'10vh'},300);
-
-		$('.footer').data('height', 'big');
-		$('.footer').stop().animate({'height':'10vh'},300);
+		$('.header').stop().animate({'height':"10vh"},300);
+		$('.footer').stop().animate({'height':"10vh"},300);
+		header_footer_true_gate = false;
 	}
 
 }
